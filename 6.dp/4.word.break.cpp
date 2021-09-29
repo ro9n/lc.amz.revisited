@@ -34,7 +34,6 @@ class Solution {
     queue<int> q; q.push(0); while(!q.empty()) {
       int front = q.front(); q.pop();
 
-
       if (front == n) return 1;
       else if (color[front]) continue;
 
